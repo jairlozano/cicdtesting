@@ -14,8 +14,13 @@ jobs:
         uses: butlerlogic/action-autotag@stable
         with:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+<<<<<<< HEAD
           startegy: package
           root: "/versioning/package.json"
+=======
+          strategy: package
+          root: "./package.json"
+>>>>>>> 6015d98cdc68250bc763db836516d35d4718993e
       
       - name: Release
         id: create_release
