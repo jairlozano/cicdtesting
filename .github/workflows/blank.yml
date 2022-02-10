@@ -15,7 +15,7 @@ jobs:
         with:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           startegy: package
-          root: "./package.json"
+          root: "/versioning/package.json"
       
       - name: Release
         id: create_release
