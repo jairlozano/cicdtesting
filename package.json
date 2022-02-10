@@ -3,10 +3,10 @@
   "version": "0.0.3",
   "private": false,
   "scripts": {
-    // "checknode": "node check_node_version.js",
-    // "serve": "yarn checknode && vue-cli-service serve",
-    // "build": "vue-cli-service build",
-    // "lint": "vue-cli-service lint"
+    "checknode": "node check_node_version.js",
+    "serve": "yarn checknode && vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@bugsnag/core": "^7.10.0",
