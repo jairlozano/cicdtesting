@@ -12,6 +12,9 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        
       - name: Tag
         id: autotagger
         uses: butlerlogic/action-autotag@stable
